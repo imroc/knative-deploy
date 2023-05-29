@@ -31,3 +31,14 @@ $ kubectl -n kourier-system get svc kourier
 NAME      TYPE           CLUSTER-IP      EXTERNAL-IP      PORT(S)                      AGE
 kourier   LoadBalancer   192.168.4.217   144.142.88.198   80:32378/TCP,443:32595/TCP   29m
 ```
+
+### Knative-serving on top of istio
+
+If your cluster has istio installed, you can integrate `istio` as networking layer.
+
+One-click deployment:
+
+```bash
+kubectl apply -k knative-serving-istio
+```
+
