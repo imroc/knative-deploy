@@ -14,14 +14,14 @@ One-click deployment for knative.
 
 ## One-click deployment
 
-### Lightweight
+### Lightweight knative-serving
 
 Integrate `Kourier` as networking layer.
 
 One-click deployment:
 
 ```bash
-kubectl apply -k knative-kourier
+kubectl apply -k knative-serving-kourier
 ```
 
 Get external ip:

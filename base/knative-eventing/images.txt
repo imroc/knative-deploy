@@ -1,0 +1,2 @@
+gcr.io/knative-releases/knative.dev/eventing/cmd/controller imroc/knative-eventing-controller
+gcr.io/knative-releases/knative.dev/eventing/cmd/webhook imroc/knative-eventing-webhook
