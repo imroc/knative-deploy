@@ -1,0 +1,7 @@
+apiVersion: v1
+data:
+  ingress-class: "kourier.ingress.networking.knative.dev"
+kind: ConfigMap
+metadata:
+  name: config-network
+  namespace: knative-serving

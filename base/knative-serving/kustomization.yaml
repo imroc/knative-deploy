@@ -1,0 +1,25 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+resources:
+  - serving-core.yaml
+
+images:
+- name: gcr.io/knative-releases/knative.dev/serving/cmd/activator
+  newName: imroc/knative-serving-activator
+  newTag: latest
+- name: gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler
+  newName: imroc/knative-serving-autoscaler
+  newTag: latest
+- name: gcr.io/knative-releases/knative.dev/serving/cmd/controller
+  newName: imroc/knative-serving-controller
+  newTag: latest
+- name: gcr.io/knative-releases/knative.dev/serving/cmd/domain-mapping
+  newName: imroc/knative-serving-domain-mapping
+  newTag: latest
+- name: gcr.io/knative-releases/knative.dev/serving/cmd/domain-mapping-webhook
+  newName: imroc/knative-serving-domain-mapping-webhook
+  newTag: latest
+- name: gcr.io/knative-releases/knative.dev/serving/cmd/webhook
+  newName: imroc/knative-serving-webhook
+  newTag: latest
