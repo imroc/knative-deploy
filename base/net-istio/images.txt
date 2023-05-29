@@ -1,0 +1,2 @@
+gcr.io/knative-releases/knative.dev/net-istio/cmd/controller imroc/knative-net-istio-controller
+gcr.io/knative-releases/knative.dev/net-istio/cmd/webhook imroc/knative-net-istio-webhook
