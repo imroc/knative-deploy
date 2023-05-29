@@ -2,9 +2,10 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
 resources:
-  - serving-core.yaml
+- serving-core.yaml
 
 images:
+- newTag: latest
 - name: gcr.io/knative-releases/knative.dev/serving/cmd/activator
   newName: imroc/knative-serving-activator
   newTag: latest

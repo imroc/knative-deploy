@@ -1,0 +1,7 @@
+gcr.io/knative-releases/knative.dev/serving/cmd/activator imroc/knative-serving-activator
+gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler imroc/knative-serving-autoscaler
+gcr.io/knative-releases/knative.dev/serving/cmd/controller imroc/knative-serving-controller
+gcr.io/knative-releases/knative.dev/serving/cmd/domain-mapping-webhook imroc/knative-serving-domain-mapping-webhook
+gcr.io/knative-releases/knative.dev/serving/cmd/domain-mapping imroc/knative-serving-domain-mapping
+gcr.io/knative-releases/knative.dev/serving/cmd/webhook imroc/knative-serving-webhook
+gcr.io/knative-releases/knative.dev/net-kourier/cmd/kourier imroc/knative-net-kourier

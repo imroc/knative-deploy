@@ -12,7 +12,9 @@ One-click deployment for knative.
 * Kubernetes 1.24+.
 * kubectl is installed and kubeconfig is properly configured.
 
-## Light Weight Solution
+## One-click deployment
+
+### Lightweight
 
 Integrate `Kourier` as networking layer.
 

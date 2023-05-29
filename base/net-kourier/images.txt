@@ -1,0 +1,1 @@
+gcr.io/knative-releases/knative.dev/net-kourier/cmd/kourier imroc/knative-net-kourier
